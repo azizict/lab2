@@ -1,0 +1,6 @@
+https://github.com/azizict/lab2.git
+
+
+git remote add origin https://github.com/azizict/lab2.git
+git branch -M master
+git push -u origin master
