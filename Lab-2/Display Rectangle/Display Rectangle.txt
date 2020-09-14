@@ -1,0 +1,31 @@
+//Display Rectangle
+//Length 16 asterisk and width of 6 asterisks.
+  
+#include <iostream>
+using namespace std;
+int main()
+{
+    int size,row,coloum;
+    cout<<"Enter the size for Hollow rectangle\n";
+    cin>>size;
+    //get input from the user for num1
+for (row=1; row<=size; row++){
+  cout<<"*";
+}
+cout<<"\n";
+for (coloum=1; coloum<=size-2; coloum++){
+  for (row=1; row<=size; row++){
+  if(row==1||row==size){
+    cout<<"*";
+  }else{
+    cout<<" ";
+  }
+}
+  cout<<"\n";
+}
+for(row=1; row<=size; row++){
+  cout<<"*";
+}
+cout<<"\n";
+    return 0;
+}
